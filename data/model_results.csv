@@ -1,0 +1,15 @@
+model,best_params,training_score,test_score
+bernoulli,"OrderedDict([('cvec__max_df', 0.8658294498066138), ('cvec__max_features', 9324), ('cvec__min_df', 1), ('nb__alpha', 0.004816706944769418)])",0.7009021910861534,0.6239035852630871
+bernoulli,"OrderedDict([('cvec__max_df', 0.9132707425144455), ('cvec__max_features', 9894), ('cvec__min_df', 1), ('nb__alpha', 0.006645992896437602)])",0.7017784272395896,0.6248480127229087
+bernoulli,"OrderedDict([('cvec__max_df', 0.9), ('cvec__max_features', 15000), ('cvec__min_df', 2), ('nb__alpha', 0.01)])",0.6885196475993354,0.6261445148538508
+random_forest,"OrderedDict([('cvec__max_df', 0.95), ('cvec__max_features', 1000), ('cvec__min_df', 3), ('rf__max_depth', 5), ('rf__n_estimators', 300)])",0.5155361049327174,0.5026336322504398
+random_forest,"OrderedDict([('cvec__max_df', 0.9), ('cvec__max_features', 1362), ('cvec__min_df', 1), ('rf__max_depth', 8), ('rf__n_estimators', 500)])",0.6870938502817588,0.6665525217025623
+random_forest,"OrderedDict([('cvec__max_df', 0.8576827589872665), ('cvec__max_features', 1564), ('cvec__min_df', 4), ('rf__max_depth', 10), ('rf__n_estimators', 901)])",0.6917953468500858,0.6669739548966271
+random_forest,"OrderedDict([('cvec__max_df', 0.95), ('cvec__max_features', 5000), ('cvec__min_df', 5), ('rf__max_depth', 15), ('rf__n_estimators', 1000)])",0.7112335130355033,0.6690577519057673
+svc,"OrderedDict([('cvec__max_df', 0.9271701533845156), ('cvec__max_features', 14200), ('cvec__min_df', 2), ('svc__C', 7.304576797154569), ('svc__coef0', 0.32405998228437366), ('svc__degree', 2), ('svc__gamma', 'scale'), ('svc__kernel', 'poly'), ('svc__shrinking', False)])",0.90018514862579,0.6847275236515107
+svc,"OrderedDict([('cvec__max_df', 0.9406197994178681), ('cvec__max_features', 10859), ('cvec__min_df', 3), ('svc__C', 4.162492539230118), ('svc__coef0', 0.5230523280543836)])",0.8738128427946017,0.682197580379447
+svc,"OrderedDict([('cvec__max_df', 0.9406197994178681), ('cvec__max_features', 10859), ('cvec__min_df', 3), ('svc__C', 4.162492539230118), ('svc__coef0', 0.5230523280543836)])",0.8823917078209427,0.6838184451202158
+xg_boost,"OrderedDict([('cvec__max_df', 0.95), ('cvec__max_features', 15000), ('cvec__min_df', 3), ('xg__max_depth', 5), ('xg__n_estimators', 300)])",0.7748094721383902,0.6873909071162492
+xg_boost,"OrderedDict([('cvec__max_df', 0.9), ('cvec__max_features', 18000), ('cvec__min_df', 5), ('xg__max_depth', 10), ('xg__n_estimators', 304)])",0.8185632393832598,0.6940394518233781
+xg_boost,"OrderedDict([('cvec__max_df', 0.99), ('cvec__max_features', 18000), ('cvec__min_df', 2), ('xg__max_depth', 15), ('xg__n_estimators', 169)])",0.8209449844548671,0.6920870288386672
+xg_boost,"OrderedDict([('cvec__max_df', 0.9), ('cvec__max_features', 18000), ('cvec__min_df', 2), ('xg__max_depth', 15), ('xg__n_estimators', 279)])",0.8330595187757812,0.693419656945338
